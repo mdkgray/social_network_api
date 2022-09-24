@@ -80,11 +80,9 @@ module.exports = {
     addReaction(req, res) {
         Thought.findOneAndUpdate(
             { _id: req.params.thoughtId },
-            { $push: { reactions: req.body }},
+            { $push: { reaction: req.body }},
             { new: true, runValidators: true }
         )
-        .populate({ path: 'reaction', select: '-__v' })
-        .select('-__v')
         .then((dbThoughtData) => 
             !dbThoughtData ? res.status(404).json({ message: 'No thought found with that ID'}) 
             : res.json(dbThoughtData))
@@ -93,9 +91,10 @@ module.exports = {
 
     // Delete a reaction from a thought 
     deleteReaction(req, res) {
+        console.log(req.params.reactionId);
         Thought.findOneAndUpdate(
             { _id: req.params.thoughtId },
-            { $pull: {reactions: {_id: req.params.thoughtId}}},
+            { $pull: {reactions: {reactionId: req.params.reactionId}}},
             { new: true, runValidators: true }
         )
         .then((dbThoughtData) => 
