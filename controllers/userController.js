@@ -40,7 +40,7 @@ module.exports = {
     updateUser(req, res) {
         User.findOneAndUpdate(
             { _id: req.params.userId },
-            { $set: require.body },
+            { $set: req.body },
             { new: true, runValidators: true }
         )
         .then((dbUserData) => 
