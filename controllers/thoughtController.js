@@ -83,8 +83,6 @@ module.exports = {
             { $addToSet: { reactions: req.body }},
             { new: true, runValidators: true }
         )
-        .populate({ path: 'reactions', select: '-__v' })
-        .select('-__v')
         .then((dbThoughtData) => 
             !dbThoughtData ? res.status(404).json({ message: 'No thought found with that ID'}) 
             : res.json(dbThoughtData))
