@@ -44,9 +44,9 @@ module.exports = {
             { $set: req.body },
             { new: true, runValidators: true }
         )
-        .then((Thought) => 
-            !Thought ? res.status(404).json({ message: 'No thought found with that ID'}) 
-            : res.json(Thought))
+        .then((dbThoughtData) => 
+            !dbThoughtData ? res.status(404).json({ message: 'No thought found with that ID'}) 
+            : res.json(dbThoughtData))
         .catch((err) => res.status(500).json(err));
     },
 
