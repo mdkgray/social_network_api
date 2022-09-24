@@ -11,8 +11,8 @@ module.exports = {
 
     // GET a single thought by ID
     getThoughtById(req, res) {
-        Thought.findOne({ _id: req.params.id })
-            .populate({path: 'reactions'})
+        Thought.findOne({ _id: req.params.thoughtId })
+            .populate({path: 'reaction'})
             .select('-__v')
             .then((dbThoughtData) => 
                 !dbThoughtData ? res.status(404).json({ message: 'No thought found with that ID'}) 
@@ -40,7 +40,7 @@ module.exports = {
     // Update a thought 
     updateThought(req, res) {
         Thought.findOneAndUpdate(
-            { _id: req.params._id },
+            { _id: req.params.thoughtId },
             { $set: req.body },
             { new: true, runValidators: true }
         )
