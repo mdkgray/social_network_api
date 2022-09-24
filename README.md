@@ -25,7 +25,7 @@ Install the required packages by invoking the following command:
 
 The application is started by invoking the following command:
 
-`node index.js`.
+`node index.js`
 
 ## License
 
@@ -39,7 +39,7 @@ To test the routes in the application, download [Insomnia](https://insomnia.rest
 
 ## Walkthrough Video
 
-A walkthrough video can be viewed here
+A walkthrough video can be viewed [HERE]().
 
 ## Credits
 
@@ -52,5 +52,6 @@ University of Sydney Coding Bootcamp
 #### GitHub: [mdkgray](https://github.com/mdkgray)
 
 #### Email: mdkulen@gmail.com
+
 
 _This README was generated using [README.md Generator Tool](https://github.com/mdkgray/README_generator)_
