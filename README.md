@@ -13,7 +13,7 @@ This application was developed for a social media start up to provide an API tha
 * [Installation](#Installation)
 * [License](#License)
 * [Tests](#Tests)
-* [Walkthrough](#Walkthrough)
+* [Demonstration](#Demonstration)
 * [Credits](#Credits)
 * [Questions](#Questions)
 
@@ -37,9 +37,9 @@ MIT
 
 To test the routes in the application, download [Insomnia](https://insomnia.rest/).
 
-## Walkthrough Video
+## Demonstration
 
-A walkthrough video can be viewed [HERE](https://drive.google.com/file/d/13R18Oa2fpSPxqexq0S4tOw7Ps6acbxlC/view).
+A demonstration video can be viewed [HERE](https://drive.google.com/file/d/13R18Oa2fpSPxqexq0S4tOw7Ps6acbxlC/view).
 
 ## Credits
 
