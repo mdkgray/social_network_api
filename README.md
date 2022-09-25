@@ -39,7 +39,7 @@ To test the routes in the application, download [Insomnia](https://insomnia.rest
 
 ## Walkthrough Video
 
-A walkthrough video can be viewed [HERE]().
+A walkthrough video can be viewed [HERE](https://drive.google.com/file/d/13R18Oa2fpSPxqexq0S4tOw7Ps6acbxlC/view).
 
 ## Credits
 
