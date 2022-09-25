@@ -13,7 +13,7 @@ This application was developed for a social media start up to provide an API tha
 * [Installation](#Installation)
 * [License](#License)
 * [Tests](#Tests)
-* [Walkthrough Video](#Walkthrough)
+* [Walkthrough](#Walkthrough)
 * [Credits](#Credits)
 * [Questions](#Questions)
 
