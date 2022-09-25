@@ -47,11 +47,11 @@ University of Sydney Coding Bootcamp
 
 ## Questions
 
-### For further information contact using the following:
+### For further information or questions, contact via:
 
 #### GitHub: [mdkgray](https://github.com/mdkgray)
 
 #### Email: mdkulen@gmail.com
 
 
-_This README was generated using [README.md Generator Tool](https://github.com/mdkgray/README_generator)_
+_This README was generated using [README Generator](https://github.com/mdkgray/README_generator)_
