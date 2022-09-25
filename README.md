@@ -11,10 +11,10 @@ This application was developed for a social media start up to provide an API tha
 ## Table of Contents
 
 * [Installation](#Installation)
-* [Usage](#Usage)
 * [License](#License)
-* [Contributing](#Contributing)
 * [Tests](#Tests)
+* [Walkthrough Video](#Walkthrough)
+* [Credits](#Credits)
 * [Questions](#Questions)
 
 ## Installation 
